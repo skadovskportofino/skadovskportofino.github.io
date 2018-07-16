@@ -1,0 +1,111 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.header__content{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.header__menu{
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.menu_button{
+		display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    cursor: pointer;
+	}
+	.nav{
+		display: none;
+	}
+	.header__contact, .menu_button{
+		padding-top: 20px;
+	}
+	.logo, .header__contact, .menu_button{
+		order: 1;
+	}
+	.header__menu{
+		order: 2;
+	}
+	
+	.about{
+		background-image: none;
+		background: linear-gradient(to bottom left, #b8f9f1, #978bd3);
+		color: #323232;
+				
+	}
+	.about__content>span{
+    font-size: 35px;
+    }
+    .footer__contact{
+    	-webkit-flex-direction: column;
+    	-moz-flex-direction: column;
+    	-ms-flex-direction: column;
+    	-o-flex-direction: column;
+    	flex-direction: column;
+    	-ms-align-items: center;
+    	align-items: center;
+    }
+    .footer__telephon,.contact__h1,.footer__addres{
+    	padding-top: 20px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+   
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	.about{
+		padding: 150px 0;	
+	}
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
